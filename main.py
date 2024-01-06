@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 import pickle
+import sklearn
 from PIL import Image
 from functions import (df_area_wrangle, df_wrangle, plot_town_avg_rent,
                        plot_all_town, plot_apart_type_price, pred_actual)
